@@ -65,7 +65,14 @@ public class PlayerMovement : MonoBehaviour
 
             }
         }
-            
+    }
 
+    private void OnEnable()
+    {
+        controls.Enable();
+    }
+    private void OnDisable()
+    {
+        controls.Disable();
     }
 }
