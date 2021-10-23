@@ -9,8 +9,8 @@ public class CharacterSelect : MonoBehaviour
     public Character[] characters;
 
     public Button unlockButton;
+    public TextMeshProUGUI nameText;
     public TextMeshProUGUI coinsText;
-
 
     private void Awake()
     {
@@ -62,6 +62,7 @@ public class CharacterSelect : MonoBehaviour
     public void UpdateUI()
     {
         coinsText.text = "Coins: " + PlayerPrefs.GetInt("NumberOfCoins", 0);
+        nameText.text = characters[selectedCharacter].name;
         if (characters[selectedCharacter].isUnlocked == true)
             unlockButton.gameObject.SetActive(false);
         else

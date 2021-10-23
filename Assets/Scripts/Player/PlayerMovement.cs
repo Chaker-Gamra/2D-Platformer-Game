@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     float direction = 0;
     public float speed = 400;
-    bool isFacingRight = true;
+    public bool isFacingRight = true;
 
     public float jumpForce = 5;
     bool isGrounded;
@@ -64,7 +64,6 @@ public class PlayerMovement : MonoBehaviour
                 playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
                 numberOfJumps++;
                 AudioManager.instance.Play("SecondJump");
-
             }
         }
     }

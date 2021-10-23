@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour
         VCam.m_Follow = player.transform;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
         isGameOver = false;
-        
+
     }
 
     void Update()
