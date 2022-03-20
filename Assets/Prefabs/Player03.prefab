@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1791418735075586394}
   - component: {fileID: 1791418735075586395}
   - component: {fileID: 1791418735075586392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player03
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 250
+  isFacingRight: 1
   jumpForce: 7
   groundCheck: {fileID: 1791418735668060584}
   groundLayer:
@@ -185,7 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1791418735668060584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

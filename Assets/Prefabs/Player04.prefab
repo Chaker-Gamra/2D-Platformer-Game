@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1570117712258118213}
   - component: {fileID: 1570117712258118210}
   - component: {fileID: 1471493938589669783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player04
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1570117712937543045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6310835824092367826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bulletHole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
